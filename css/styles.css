@@ -17,7 +17,7 @@
 .body {
     background-color: var(--primary-background-cl);
     color: var(--primary-txt-cl);
-    font-family: roboto, arial, helvetica, sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     line-height: calc(24/16);
     letter-spacing: 0.02em;
@@ -29,33 +29,22 @@
 }
 .header-logo-link {
     text-decoration: none;
-    color: var(--secondary-txt-cl);
+    color: var(--primary-brand-cl);
     font-weight: 700;
-    font-family: raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
-    line-height: calc(21/18);
+    line-height: 1.17;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 .header-logo-part {
-    color: var(--primary-brand-cl);
+    color: var(--secondary-txt-cl);
 }
 
 .nav-list {
     list-style-type: none;
 }
-.nav-link-home {
-    text-decoration: none;
-    font-weight: 500;
-    color: var(--secondary-txt-cl);
-}
 
-.nav-link-home:hover {
-    color: var(--pressed-state-cl);
-}
-.nav-link-home:focus {
-    color: var(--pressed-state-cl);
-    text-decoration: underline;
-}
 .nav-link {
     text-decoration: none;
     font-weight: 500;
@@ -67,13 +56,13 @@
 }
 
 .contacts-list {
-    list-style-type: none;    
+    list-style-type: none;
+    font-style: normal;
 }
 
 .contact-link {
     text-decoration: none;
     color: currentColor;
-    font-style: normal;
 }
 
 .contact-link:hover,
@@ -147,7 +136,7 @@
     border-width: 1px;
 }
 
-.porfolio-title {
+.portfolio-title {
     font-size: 36px;
     font-weight: 700;
     line-height: calc(40/36);
