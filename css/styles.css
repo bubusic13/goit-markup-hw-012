@@ -55,9 +55,12 @@
     color: var(--pressed-state-cl);
 }
 
+.contacts {
+    font-style: normal;
+}
+
 .contacts-list {
     list-style-type: none;
-    font-style: normal;
 }
 
 .contact-link {
@@ -77,8 +80,10 @@
 
 .hero-title{
     font-size: 56px;
-    line-height: calc(60/56);
+    line-height: 1.07;
     font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 .hero-btn {
     cursor: pointer;
@@ -87,6 +92,8 @@
     border-width: 0;
     letter-spacing: 0.04em;
     border-radius: 4px;
+    font-weight: 500;
+    line-height: 1.5;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -105,6 +112,8 @@
     font-size: 20px;
     line-height: calc(24/20);
     font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--secondary-txt-cl);
 }
 
 .team {
@@ -114,7 +123,11 @@
 .team-title {
     font-size: 36px;
     font-weight: 700;
-    line-height: calc(40/36);
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--secondary-txt-cl);    
 }
 
 .team-list {
@@ -128,7 +141,9 @@
 .team-card-title {
     font-size: 20px;
     font-weight: 500;
-    line-height: calc(24/20);
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--secondary-txt-cl);
 }
 
 .porfolio {
@@ -145,16 +160,18 @@
 .portfolio-list {
     list-style-type: none;
 }
-
+/*
 .portfolio-card-content {
     border: 1px solid var(--accent-cl);
     border-top: 0;
 }
+*/
 
 .portfolio-card-title {
     font-size: 20px;
     font-weight: 500;
-    line-height: calc(24/20);
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .footer {
