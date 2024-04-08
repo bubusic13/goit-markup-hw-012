@@ -14,6 +14,34 @@
 
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1128px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
 .body {
     background-color: var(--primary-background-cl);
     color: var(--primary-txt-cl);
@@ -23,6 +51,10 @@
     letter-spacing: 0.02em;
 }
 
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 
 .header-logo-link {
     text-decoration: none;
@@ -34,6 +66,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
+
 .header-logo-part {
     color: var(--secondary-txt-cl);
 }
@@ -47,6 +80,7 @@
     font-weight: 500;
     color: var(--secondary-txt-cl);
 }
+
 .nav-link:hover,
 .nav-link:focus {
     color: var(--pressed-state-cl);
@@ -54,10 +88,6 @@
 
 .contacts {
     font-style: normal;
-}
-
-.contacts-list {
-    list-style-type: none;
 }
 
 .contact-link {
@@ -73,16 +103,25 @@
 .hero {
     background-color: var(--hero-bg-cl);
     color: var(--primary-background-cl);
-}    
+    padding-top: 188px;
+    padding-bottom: 188px;
+    margin: 0 auto;
+}
 
-.hero-title{
+.hero-title {
     font-size: 56px;
     line-height: 1.07;
     font-weight: 700;
     text-align: center;
     letter-spacing: 0.02em;
+    max-width: 496px;
+    margin-bottom: 32px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 .hero-btn {
+    display: block;
     cursor: pointer;
     background-color: var(--primary-brand-cl);
     color: currentColor;
@@ -90,18 +129,25 @@
     letter-spacing: 0.04em;
     font-weight: 500;
     line-height: 1.5;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 .hero-btn:hover,
 .hero-btn:focus {
     background-color: var(--pressed-state-cl);
+}
+
+.features {
+    padding: 120px 0;
 }
 
 .hiden {
     visibility: hidden;
 }
 
-.features-list {
-    list-style-type: none;
+.features-list li {
+    max-width: 264px;
 }
 
 .features-list-title {
@@ -110,10 +156,12 @@
     font-weight: 500;
     letter-spacing: 0.02em;
     color: var(--secondary-txt-cl);
+    margin-bottom: 8px;
 }
 
 .team {
     background-color: var(--lightmod-bg-cl);
+    padding: 120px 0;
 }
 
 .team-title {
@@ -123,15 +171,19 @@
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--secondary-txt-cl);    
+    color: var(--secondary-txt-cl);
+    margin-bottom: 72px;
 }
 
-.team-list {
-    list-style-type: none;
+.team-card-img {
+    margin-bottom: 32px;
 }
 
 .team-card {
     background-color: var(--primary-background-cl);
+    max-width: 264px;
+    max-height: 380px;
+    padding-bottom: 32px;
 }
 
 .team-card-title {
@@ -140,6 +192,23 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--secondary-txt-cl);
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.team-card-text {
+    text-align: center;
+}
+
+
+.porfolio {
+    padding: 120px 0;
+}
+
+.portfolio-card {
+    padding-bottom: 32px;
+    max-width: 360px;
+    max-height: 420px;
 }
 
 .portfolio-title {
@@ -150,10 +219,11 @@
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--secondary-txt-cl);
+    margin-bottom: 72px;
 }
 
-.portfolio-list {
-    list-style-type: none;
+.porfolio-card-img {
+    margin-bottom: 32px;
 }
 
 .porfolio-card-title {
@@ -162,6 +232,8 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--secondary-txt-cl);
+    margin-bottom: 16px;
+    margin-left: 16px;
 }
 
 .portfolio-card-text {
@@ -169,11 +241,14 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-txt-cl);
+    margin-left: 16px;
 }
 
 .footer {
     background-color: var(--hero-bg-cl);
     color: var(--lightmod-bg-cl);
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .footer-logo-link {
@@ -185,6 +260,7 @@
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 16px;
 }
 
 .footer-logo-part {
@@ -193,10 +269,8 @@
 
 .footer-text {
     line-height: 1.5;
-    letter-spacing: 0.02em;     
-}    
-
-
-
+    letter-spacing: 0.02em;
+    max-width: 264px;
+}
 
 
